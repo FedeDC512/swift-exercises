@@ -1,1 +1,1 @@
-# swift-exercises-
+# Swift Playground Exercises
