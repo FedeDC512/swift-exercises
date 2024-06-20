@@ -28,6 +28,10 @@ case 161...180:
 case 181...200:
     print("You are in the Maximum zone. Activity in this zone helps fit athletes develop speed.")
 default:
-    print("Warning! Please slow down!")
+    if currentHR > 200 {
+        print("Warning! Please slow down!")
+    } else {
+        print("Try to push it a bit!")
+    }
 }
 //: [Previous](@previous)  |  page 7 of 9  |  [Next: Exercise - Ternary Operator](@next)
