@@ -2,7 +2,7 @@
 
 - [x] Introduction
 - [x] Constants and Variables
-- [ ] Operators
+- [x] Operators
 - [x] Control Flow
 - [x] Strings
 - [x] Functions
