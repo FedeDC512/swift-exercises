@@ -22,6 +22,12 @@ class Spaceship {
             print("Sorry, your ship was hit one too many times. Do you want to play again?")
         }
     }
+    
+    init(name:String, health: Int, position:Int){
+        self.name = name
+        self.health = health
+        self.position = position
+    }
 }
 
 class Fighter: Spaceship {
@@ -35,6 +41,12 @@ class Fighter: Spaceship {
             print("You have no more fire power.")
         }
     }
+    
+    init(name:String, health: Int, position:Int, weapon:String, remainingFirePower:Int){
+        self.weapon = weapon
+        self.remainingFirePower = remainingFirePower
+        super.init(name: name, health: health, position: position)
+    }
 }
 
 class ShieldedShip: Fighter {
@@ -47,33 +59,39 @@ class ShieldedShip: Fighter {
             super.wasHit()
         }
     }
+    
+    init(name:String, health: Int, position:Int, weapon:String, remainingFirePower:Int, shieldStrength:Int){
+        self.shieldStrength = shieldStrength
+        super.init(name: name, health: health, position: position, weapon: weapon, remainingFirePower: remainingFirePower)
+    }
 }
 /*:
  Note that each class above has an error by the class declaration that says "Class has no initializers." Unlike structs, classes do not come with memberwise initializers because the standard memberwise initializers don't always play nicely with inheritance. You can get rid of the error by providing default values for everything, but it is common and better practice to simply write your own initializer. Go to the declaration of `Spaceship` and add an initializer that takes in an argument for each property on `Spaceship` and sets the properties accordingly.
 
  Then create an instance of `Spaceship` below called `falcon`. Use the memberwise initializer you just created. The ship's name should be "Falcon."
  */
-
-
+let falcon = Spaceship(name: "Falcon", health: 5, position: 0)
 /*:
  Writing initializers for subclasses can get tricky. Your initializer needs to not only set the properties declared on the subclass, but also set all of the uninitialized properties on classes that it inherits from. Go to the declaration of `Fighter` and write an initializer that takes an argument for each property on `Fighter` and for each property on `Spaceship`. Set the properties accordingly. (Hint: you can call through to a superclass' initializer with `super.init` *after* you initialize all of the properties on the subclass).
 
  Then create an instance of `Fighter` below called `destroyer`. Use the memberwise initializer you just created. The ship's name should be "Destroyer."
  */
-
-
+let destroyer = Fighter(name: "Destroyer", health: 100, position: 0, weapon: "Laser", remainingFirePower: 10)
 /*:
  Now go add an initializer to `ShieldedShip` that takes an argument for each property on `ShieldedShip`, `Fighter`, and `Spaceship`, and sets the properties accordingly. Remember that you can call through to the initializer on `Fighter` using `super.init`.
 
  Then create an instance of `ShieldedShip` below called `defender`. Use the memberwise initializer you just created. The ship's name should be "Defender."
  */
-
-
+let defender = ShieldedShip(name: "Defender", health: 100, position: 0, weapon: "Cannon", remainingFirePower: 5, shieldStrength: 25)
 /*:
  Create a new constant named `sameShip` and set it equal to `falcon`. Print out the position of `sameShip` and `falcon`, then call `moveLeft()` on `sameShip` and print out the position of `sameShip` and `falcon` again. Did both positions change? Why? If both were structs instead of classes, would it be the same? Why or why not? Provide your answer in a comment or print statement below.
  */
-
-
+let sameShip = falcon
+print("Falcon position: \(falcon.position), SameShip position: \(sameShip.position)")
+sameShip.moveLeft()
+print("Falcon position: \(falcon.position), SameShip position: \(sameShip.position)")
+print("Yes, both position changed because falcon and sameShip are referencing the same object.")
+print("If both were structs, the position would not be the same because structs are value types, and a copy of falcon (a different object but with same values) would be created")
 /*:
 
  _Copyright © 2018 Apple Inc._

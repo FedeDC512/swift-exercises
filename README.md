@@ -7,7 +7,7 @@
 - [x] Strings
 - [x] Functions
 - [x] Structures
-- [ ] Classes
+- [x] Classes
 
 ## To Do:
 - [ ] Collections
