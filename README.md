@@ -1,7 +1,7 @@
 # Swift Playground Exercises
 
 - [x] Introduction
-- [ ] Constants and Variables
+- [x] Constants and Variables
 - [ ] Operators
 - [x] Control Flow
 - [x] Strings
