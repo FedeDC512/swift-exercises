@@ -9,11 +9,11 @@
 - [x] Structures
 - [x] Classes
 - [ ] Collections
+- [x] Loops
+- [ ] Optionals
 
 ## To Do:
 - [ ] Enumerations
 - [ ] Guard
-- [ ] Loops
-- [ ] Optionals
 - [ ] Scope
 - [ ] Type Casting
