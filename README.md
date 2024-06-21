@@ -8,9 +8,9 @@
 - [x] Functions
 - [x] Structures
 - [x] Classes
+- [ ] Collections
 
 ## To Do:
-- [ ] Collections
 - [ ] Enumerations
 - [ ] Guard
 - [ ] Loops
