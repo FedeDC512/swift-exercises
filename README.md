@@ -11,9 +11,9 @@
 - [x] Collections
 - [x] Loops
 - [ ] Optionals
+- [x] Enumerations
 
 ## To Do:
-- [ ] Enumerations
 - [ ] Guard
 - [ ] Scope
 - [ ] Type Casting
