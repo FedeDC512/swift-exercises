@@ -8,7 +8,7 @@
 - [x] Functions
 - [x] Structures
 - [x] Classes
-- [ ] Collections
+- [x] Collections
 - [x] Loops
 - [ ] Optionals
 

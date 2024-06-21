@@ -33,5 +33,4 @@ if committedChallenges.isEmpty {
 } else {
     print("You have chosen multiple challenges.")
 }
-
 //: [Previous](@previous)  |  page 2 of 4  |  [Next: Exercise - Dictionaries](@next)
