@@ -12,6 +12,7 @@
 - [x] Loops
 - [x] Optionals
 - [x] Enumerations
+- [x] Closures (Challenges)
 
 ## To Do:
 - [ ] Guard
