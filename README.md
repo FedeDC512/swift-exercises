@@ -10,7 +10,7 @@
 - [x] Classes
 - [x] Collections
 - [x] Loops
-- [ ] Optionals
+- [x] Optionals
 - [x] Enumerations
 
 ## To Do:
