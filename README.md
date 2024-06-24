@@ -27,8 +27,8 @@
 - [ ] Type Casting
 
 ## Swift UI Exercises
-- [x] Swift UI (Challenges)
+- [ ] Swift UI (Challenges)
     - [x] Challenge 1
     - [x] Challenge 2
     - [x] Challenge 3
-    - [x] Challenge 4
+    - [ ] Challenge 4

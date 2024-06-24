@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Pikachu",
+        "type": "Electric",
+        "dex": "025",
+        "abilities": ["Static", "Lightning Rod"],
+        "base_stats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Charmander",
+        "type": "Fire",
+        "dex": "004",
+        "abilities": ["Blaze", "Solar Power"],
+        "base_stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special_attack": 60,
+            "special_defense": 50,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Bulbasaur",
+        "type": ["Grass", "Poison"],
+        "dex": "001",
+        "abilities": ["Overgrow", "Chlorophyll"],
+        "base_stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Squirtle",
+        "type": "Water",
+        "dex": "007",
+        "abilities": ["Torrent", "Rain Dish"],
+        "base_stats": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "special_attack": 50,
+            "special_defense": 64,
+            "speed": 43
+        }
+    },
+    {
+        "name": "Jigglypuff",
+        "type": ["Normal", "Fairy"],
+        "dex": "039",
+        "abilities": ["Cute Charm", "Competitive", "Friend Guard"],
+        "base_stats": {
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "special_attack": 45,
+            "special_defense": 25,
+            "speed": 20
+        }
+    }
+]
