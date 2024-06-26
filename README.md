@@ -2,8 +2,9 @@
 
 ## Table of Contents
 
-- [Playground Exercises](#playground-exercises)
-- [UI Exercises](#ui-exercises)
+- [Swift Playground](#swift-playground-exercises)
+- [SwiftUI](#swiftui-exercises)
+- [SpriteKit](#spritekit-exercises)
 
 ## Swift Playground Exercises
 
@@ -26,15 +27,17 @@
 - [ ] Scope
 - [ ] Type Casting
 
-## Swift UI Exercises
-- [ ] Swift UI (Challenges)
-    - [x] Challenge 1
-    - [x] Challenge 2
-    - [x] Challenge 3
-    - [ ] Challenge 4
-- [ ] SpriteKit
-    - [ ] Flower 1
-    - [ ] Flower 2
-    - [ ] Flower 3
-    - [ ] Flower 4
-    - [ ] Runner
+## SwiftUI Exercises
+- [x] Challenge 1
+- [x] Challenge 2
+- [x] Challenge 3
+- [ ] Challenge 4
+
+## SpriteKit Exercises
+- [x] Challenge 0
+- [x] Flower 1
+- [x] Flower 2
+- [x] Flower 3
+- [x] Flower 4
+- [ ] Flower 5
+- [ ] Runner
