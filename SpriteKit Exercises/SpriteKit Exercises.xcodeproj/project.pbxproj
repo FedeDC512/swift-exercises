@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A0C470B2C2C0041006F0AA3 /* Flower6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C470A2C2C0041006F0AA3 /* Flower6.swift */; };
-		7A0C470D2C2C005B006F0AA3 /* Flower6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C470C2C2C005B006F0AA3 /* Flower6.sks */; };
+		7A0C470B2C2C0041006F0AA3 /* RandomSoundAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C470A2C2C0041006F0AA3 /* RandomSoundAnimation.swift */; };
+		7A0C470D2C2C005B006F0AA3 /* RandomSoundAnimation.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C470C2C2C005B006F0AA3 /* RandomSoundAnimation.sks */; };
 		7A0C470F2C2C0703006F0AA3 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C470E2C2C0703006F0AA3 /* Timer.swift */; };
 		7A0C47112C2C0725006F0AA3 /* Timer.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C47102C2C0725006F0AA3 /* Timer.sks */; };
 		7A0C47132C2C1323006F0AA3 /* Collisions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C47122C2C1323006F0AA3 /* Collisions.swift */; };
@@ -19,16 +19,16 @@
 		7A1920302C2B9135005C7709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A19202F2C2B9135005C7709 /* Preview Assets.xcassets */; };
 		7A1920372C2B917C005C7709 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920362C2B917C005C7709 /* GameScene.swift */; };
 		7A1920392C2B9186005C7709 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A1920382C2B9186005C7709 /* GameScene.sks */; };
-		7A19203B2C2B92EF005C7709 /* Flower1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19203A2C2B92EF005C7709 /* Flower1.swift */; };
-		7A19203D2C2B9304005C7709 /* Flower1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A19203C2C2B9304005C7709 /* Flower1.sks */; };
-		7A19203F2C2B93CD005C7709 /* Flower2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19203E2C2B93CD005C7709 /* Flower2.swift */; };
-		7A1920412C2B93DC005C7709 /* Flower2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A1920402C2B93DC005C7709 /* Flower2.sks */; };
-		7A1920432C2B943A005C7709 /* Flower3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920422C2B943A005C7709 /* Flower3.swift */; };
-		7A1920452C2B9444005C7709 /* Flower3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A1920442C2B9444005C7709 /* Flower3.sks */; };
-		7A1920472C2B94D3005C7709 /* Flower4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920462C2B94D3005C7709 /* Flower4.swift */; };
-		7A1920492C2B94DF005C7709 /* Flower4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A1920482C2B94DF005C7709 /* Flower4.sks */; };
-		7A19204B2C2B95F9005C7709 /* Flower5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19204A2C2B95F9005C7709 /* Flower5.swift */; };
-		7A19204D2C2B9605005C7709 /* Flower5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A19204C2C2B9605005C7709 /* Flower5.sks */; };
+		7A19203B2C2B92EF005C7709 /* ArrangeFlowers1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19203A2C2B92EF005C7709 /* ArrangeFlowers1.swift */; };
+		7A19203D2C2B9304005C7709 /* ArrangeFlowers1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A19203C2C2B9304005C7709 /* ArrangeFlowers1.sks */; };
+		7A19203F2C2B93CD005C7709 /* ArrangeFlowers2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19203E2C2B93CD005C7709 /* ArrangeFlowers2.swift */; };
+		7A1920412C2B93DC005C7709 /* ArrangeFlowers2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A1920402C2B93DC005C7709 /* ArrangeFlowers2.sks */; };
+		7A1920432C2B943A005C7709 /* SpawnFlowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920422C2B943A005C7709 /* SpawnFlowers.swift */; };
+		7A1920452C2B9444005C7709 /* SpawnFlowers.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A1920442C2B9444005C7709 /* SpawnFlowers.sks */; };
+		7A1920472C2B94D3005C7709 /* DragFlowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920462C2B94D3005C7709 /* DragFlowers.swift */; };
+		7A1920492C2B94DF005C7709 /* DragFlowers.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A1920482C2B94DF005C7709 /* DragFlowers.sks */; };
+		7A19204B2C2B95F9005C7709 /* ReverseSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19204A2C2B95F9005C7709 /* ReverseSequence.swift */; };
+		7A19204D2C2B9605005C7709 /* ReverseSequence.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A19204C2C2B9605005C7709 /* ReverseSequence.sks */; };
 		7A19204F2C2B968A005C7709 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19204E2C2B968A005C7709 /* Runner.swift */; };
 		7A1920512C2B96A4005C7709 /* Runner.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A1920502C2B96A4005C7709 /* Runner.sks */; };
 		7A1920532C2B97CF005C7709 /* passi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A1920522C2B97CF005C7709 /* passi.wav */; };
@@ -36,8 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A0C470A2C2C0041006F0AA3 /* Flower6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower6.swift; sourceTree = "<group>"; };
-		7A0C470C2C2C005B006F0AA3 /* Flower6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flower6.sks; sourceTree = "<group>"; };
+		7A0C470A2C2C0041006F0AA3 /* RandomSoundAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSoundAnimation.swift; sourceTree = "<group>"; };
+		7A0C470C2C2C005B006F0AA3 /* RandomSoundAnimation.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RandomSoundAnimation.sks; sourceTree = "<group>"; };
 		7A0C470E2C2C0703006F0AA3 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		7A0C47102C2C0725006F0AA3 /* Timer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Timer.sks; sourceTree = "<group>"; };
 		7A0C47122C2C1323006F0AA3 /* Collisions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collisions.swift; sourceTree = "<group>"; };
@@ -49,16 +49,16 @@
 		7A19202F2C2B9135005C7709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A1920362C2B917C005C7709 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		7A1920382C2B9186005C7709 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		7A19203A2C2B92EF005C7709 /* Flower1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower1.swift; sourceTree = "<group>"; };
-		7A19203C2C2B9304005C7709 /* Flower1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flower1.sks; sourceTree = "<group>"; };
-		7A19203E2C2B93CD005C7709 /* Flower2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower2.swift; sourceTree = "<group>"; };
-		7A1920402C2B93DC005C7709 /* Flower2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flower2.sks; sourceTree = "<group>"; };
-		7A1920422C2B943A005C7709 /* Flower3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower3.swift; sourceTree = "<group>"; };
-		7A1920442C2B9444005C7709 /* Flower3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flower3.sks; sourceTree = "<group>"; };
-		7A1920462C2B94D3005C7709 /* Flower4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower4.swift; sourceTree = "<group>"; };
-		7A1920482C2B94DF005C7709 /* Flower4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flower4.sks; sourceTree = "<group>"; };
-		7A19204A2C2B95F9005C7709 /* Flower5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower5.swift; sourceTree = "<group>"; };
-		7A19204C2C2B9605005C7709 /* Flower5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flower5.sks; sourceTree = "<group>"; };
+		7A19203A2C2B92EF005C7709 /* ArrangeFlowers1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrangeFlowers1.swift; sourceTree = "<group>"; };
+		7A19203C2C2B9304005C7709 /* ArrangeFlowers1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ArrangeFlowers1.sks; sourceTree = "<group>"; };
+		7A19203E2C2B93CD005C7709 /* ArrangeFlowers2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrangeFlowers2.swift; sourceTree = "<group>"; };
+		7A1920402C2B93DC005C7709 /* ArrangeFlowers2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ArrangeFlowers2.sks; sourceTree = "<group>"; };
+		7A1920422C2B943A005C7709 /* SpawnFlowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpawnFlowers.swift; sourceTree = "<group>"; };
+		7A1920442C2B9444005C7709 /* SpawnFlowers.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpawnFlowers.sks; sourceTree = "<group>"; };
+		7A1920462C2B94D3005C7709 /* DragFlowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragFlowers.swift; sourceTree = "<group>"; };
+		7A1920482C2B94DF005C7709 /* DragFlowers.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DragFlowers.sks; sourceTree = "<group>"; };
+		7A19204A2C2B95F9005C7709 /* ReverseSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseSequence.swift; sourceTree = "<group>"; };
+		7A19204C2C2B9605005C7709 /* ReverseSequence.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ReverseSequence.sks; sourceTree = "<group>"; };
 		7A19204E2C2B968A005C7709 /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
 		7A1920502C2B96A4005C7709 /* Runner.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Runner.sks; sourceTree = "<group>"; };
 		7A1920522C2B97CF005C7709 /* passi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = passi.wav; sourceTree = "<group>"; };
@@ -102,18 +102,18 @@
 				7A1920542C2B97E3005C7709 /* sound.wav */,
 				7A1920362C2B917C005C7709 /* GameScene.swift */,
 				7A1920382C2B9186005C7709 /* GameScene.sks */,
-				7A19203A2C2B92EF005C7709 /* Flower1.swift */,
-				7A19203C2C2B9304005C7709 /* Flower1.sks */,
-				7A19203E2C2B93CD005C7709 /* Flower2.swift */,
-				7A1920402C2B93DC005C7709 /* Flower2.sks */,
-				7A1920422C2B943A005C7709 /* Flower3.swift */,
-				7A1920442C2B9444005C7709 /* Flower3.sks */,
-				7A1920462C2B94D3005C7709 /* Flower4.swift */,
-				7A1920482C2B94DF005C7709 /* Flower4.sks */,
-				7A19204A2C2B95F9005C7709 /* Flower5.swift */,
-				7A19204C2C2B9605005C7709 /* Flower5.sks */,
-				7A0C470A2C2C0041006F0AA3 /* Flower6.swift */,
-				7A0C470C2C2C005B006F0AA3 /* Flower6.sks */,
+				7A19203A2C2B92EF005C7709 /* ArrangeFlowers1.swift */,
+				7A19203C2C2B9304005C7709 /* ArrangeFlowers1.sks */,
+				7A19203E2C2B93CD005C7709 /* ArrangeFlowers2.swift */,
+				7A1920402C2B93DC005C7709 /* ArrangeFlowers2.sks */,
+				7A1920422C2B943A005C7709 /* SpawnFlowers.swift */,
+				7A1920442C2B9444005C7709 /* SpawnFlowers.sks */,
+				7A1920462C2B94D3005C7709 /* DragFlowers.swift */,
+				7A1920482C2B94DF005C7709 /* DragFlowers.sks */,
+				7A19204A2C2B95F9005C7709 /* ReverseSequence.swift */,
+				7A19204C2C2B9605005C7709 /* ReverseSequence.sks */,
+				7A0C470A2C2C0041006F0AA3 /* RandomSoundAnimation.swift */,
+				7A0C470C2C2C005B006F0AA3 /* RandomSoundAnimation.sks */,
 				7A19204E2C2B968A005C7709 /* Runner.swift */,
 				7A1920502C2B96A4005C7709 /* Runner.sks */,
 				7A0C470E2C2C0703006F0AA3 /* Timer.swift */,
@@ -195,15 +195,15 @@
 				7A1920302C2B9135005C7709 /* Preview Assets.xcassets in Resources */,
 				7A0C47152C2C1334006F0AA3 /* Collisions.sks in Resources */,
 				7A1920392C2B9186005C7709 /* GameScene.sks in Resources */,
-				7A1920452C2B9444005C7709 /* Flower3.sks in Resources */,
-				7A1920412C2B93DC005C7709 /* Flower2.sks in Resources */,
+				7A1920452C2B9444005C7709 /* SpawnFlowers.sks in Resources */,
+				7A1920412C2B93DC005C7709 /* ArrangeFlowers2.sks in Resources */,
 				7A1920532C2B97CF005C7709 /* passi.wav in Resources */,
-				7A19203D2C2B9304005C7709 /* Flower1.sks in Resources */,
+				7A19203D2C2B9304005C7709 /* ArrangeFlowers1.sks in Resources */,
 				7A1920552C2B97E3005C7709 /* sound.wav in Resources */,
 				7A19202D2C2B9135005C7709 /* Assets.xcassets in Resources */,
-				7A19204D2C2B9605005C7709 /* Flower5.sks in Resources */,
-				7A1920492C2B94DF005C7709 /* Flower4.sks in Resources */,
-				7A0C470D2C2C005B006F0AA3 /* Flower6.sks in Resources */,
+				7A19204D2C2B9605005C7709 /* ReverseSequence.sks in Resources */,
+				7A1920492C2B94DF005C7709 /* DragFlowers.sks in Resources */,
+				7A0C470D2C2C005B006F0AA3 /* RandomSoundAnimation.sks in Resources */,
 				7A0C47112C2C0725006F0AA3 /* Timer.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,15 +215,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1920432C2B943A005C7709 /* Flower3.swift in Sources */,
-				7A1920472C2B94D3005C7709 /* Flower4.swift in Sources */,
-				7A19203B2C2B92EF005C7709 /* Flower1.swift in Sources */,
-				7A0C470B2C2C0041006F0AA3 /* Flower6.swift in Sources */,
+				7A1920432C2B943A005C7709 /* SpawnFlowers.swift in Sources */,
+				7A1920472C2B94D3005C7709 /* DragFlowers.swift in Sources */,
+				7A19203B2C2B92EF005C7709 /* ArrangeFlowers1.swift in Sources */,
+				7A0C470B2C2C0041006F0AA3 /* RandomSoundAnimation.swift in Sources */,
 				7A19204F2C2B968A005C7709 /* Runner.swift in Sources */,
 				7A1920372C2B917C005C7709 /* GameScene.swift in Sources */,
-				7A19204B2C2B95F9005C7709 /* Flower5.swift in Sources */,
+				7A19204B2C2B95F9005C7709 /* ReverseSequence.swift in Sources */,
 				7A19202B2C2B9134005C7709 /* ContentView.swift in Sources */,
-				7A19203F2C2B93CD005C7709 /* Flower2.swift in Sources */,
+				7A19203F2C2B93CD005C7709 /* ArrangeFlowers2.swift in Sources */,
 				7A0C470F2C2C0703006F0AA3 /* Timer.swift in Sources */,
 				7A0C47132C2C1323006F0AA3 /* Collisions.swift in Sources */,
 				7A1920292C2B9134005C7709 /* SpriteKit_ExercisesApp.swift in Sources */,

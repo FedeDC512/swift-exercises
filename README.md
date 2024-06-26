@@ -34,13 +34,13 @@
 - [ ] Challenge 4
 
 ## SpriteKit Exercises
-- [x] Challenge 0
-- [x] Flower 1
-- [x] Flower 2
-- [x] Flower 3
-- [x] Flower 4
-- [ ] Flower 5
-- [ ] Flower 6
+- [x] (GameScene)
+- [x] Arrange Flowers 1
+- [x] Arrange Flowers 2
+- [x] Spawn Flowers
+- [x] Drag Flowers
+- [ ] Reverse Sequence
+- [ ] Random Sound Animation
 - [x] Runner
 - [x] Timer
 - [x] Collisions

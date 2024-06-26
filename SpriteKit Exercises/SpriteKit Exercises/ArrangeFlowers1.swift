@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-class Flower1: SKScene {
+class ArrangeFlowers1: SKScene {
     
     override func didMove(to view: SKView) {
         let xMid = 0
