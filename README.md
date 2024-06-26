@@ -39,8 +39,8 @@
 - [x] Arrange Flowers 2
 - [x] Spawn Flowers
 - [x] Drag Flowers
-- [ ] Reverse Sequence
-- [ ] Sounds and Animations
+- [x] Reverse Sequence
+- [x] Sounds and Animations
 - [x] Runner
 - [x] Timer
-- [x] Collisions
+- [ ] Collisions
