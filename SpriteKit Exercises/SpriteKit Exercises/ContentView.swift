@@ -10,7 +10,7 @@ import SpriteKit
 
 struct ContentView: View {
     var scene: SKScene {
-        let scene = SKScene(fileNamed: "Flower3")
+        let scene = SKScene(fileNamed: "Collisions")
         scene!.size = CGSize(width: 750, height: 1334)
         scene?.scaleMode = .aspectFit
         return scene!

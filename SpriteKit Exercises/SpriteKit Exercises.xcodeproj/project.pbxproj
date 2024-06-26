@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		7A0C470B2C2C0041006F0AA3 /* Flower6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C470A2C2C0041006F0AA3 /* Flower6.swift */; };
 		7A0C470D2C2C005B006F0AA3 /* Flower6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C470C2C2C005B006F0AA3 /* Flower6.sks */; };
+		7A0C470F2C2C0703006F0AA3 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C470E2C2C0703006F0AA3 /* Timer.swift */; };
+		7A0C47112C2C0725006F0AA3 /* Timer.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C47102C2C0725006F0AA3 /* Timer.sks */; };
+		7A0C47132C2C1323006F0AA3 /* Collisions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C47122C2C1323006F0AA3 /* Collisions.swift */; };
+		7A0C47152C2C1334006F0AA3 /* Collisions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C47142C2C1334006F0AA3 /* Collisions.sks */; };
 		7A1920292C2B9134005C7709 /* SpriteKit_ExercisesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920282C2B9134005C7709 /* SpriteKit_ExercisesApp.swift */; };
 		7A19202B2C2B9134005C7709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19202A2C2B9134005C7709 /* ContentView.swift */; };
 		7A19202D2C2B9135005C7709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A19202C2C2B9135005C7709 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* Begin PBXFileReference section */
 		7A0C470A2C2C0041006F0AA3 /* Flower6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower6.swift; sourceTree = "<group>"; };
 		7A0C470C2C2C005B006F0AA3 /* Flower6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flower6.sks; sourceTree = "<group>"; };
+		7A0C470E2C2C0703006F0AA3 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		7A0C47102C2C0725006F0AA3 /* Timer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Timer.sks; sourceTree = "<group>"; };
+		7A0C47122C2C1323006F0AA3 /* Collisions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collisions.swift; sourceTree = "<group>"; };
+		7A0C47142C2C1334006F0AA3 /* Collisions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Collisions.sks; sourceTree = "<group>"; };
 		7A1920252C2B9134005C7709 /* SpriteKit Exercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit Exercises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1920282C2B9134005C7709 /* SpriteKit_ExercisesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_ExercisesApp.swift; sourceTree = "<group>"; };
 		7A19202A2C2B9134005C7709 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +116,10 @@
 				7A0C470C2C2C005B006F0AA3 /* Flower6.sks */,
 				7A19204E2C2B968A005C7709 /* Runner.swift */,
 				7A1920502C2B96A4005C7709 /* Runner.sks */,
+				7A0C470E2C2C0703006F0AA3 /* Timer.swift */,
+				7A0C47102C2C0725006F0AA3 /* Timer.sks */,
+				7A0C47122C2C1323006F0AA3 /* Collisions.swift */,
+				7A0C47142C2C1334006F0AA3 /* Collisions.sks */,
 				7A19202E2C2B9135005C7709 /* Preview Content */,
 			);
 			path = "SpriteKit Exercises";
@@ -181,6 +193,7 @@
 			files = (
 				7A1920512C2B96A4005C7709 /* Runner.sks in Resources */,
 				7A1920302C2B9135005C7709 /* Preview Assets.xcassets in Resources */,
+				7A0C47152C2C1334006F0AA3 /* Collisions.sks in Resources */,
 				7A1920392C2B9186005C7709 /* GameScene.sks in Resources */,
 				7A1920452C2B9444005C7709 /* Flower3.sks in Resources */,
 				7A1920412C2B93DC005C7709 /* Flower2.sks in Resources */,
@@ -191,6 +204,7 @@
 				7A19204D2C2B9605005C7709 /* Flower5.sks in Resources */,
 				7A1920492C2B94DF005C7709 /* Flower4.sks in Resources */,
 				7A0C470D2C2C005B006F0AA3 /* Flower6.sks in Resources */,
+				7A0C47112C2C0725006F0AA3 /* Timer.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +224,8 @@
 				7A19204B2C2B95F9005C7709 /* Flower5.swift in Sources */,
 				7A19202B2C2B9134005C7709 /* ContentView.swift in Sources */,
 				7A19203F2C2B93CD005C7709 /* Flower2.swift in Sources */,
+				7A0C470F2C2C0703006F0AA3 /* Timer.swift in Sources */,
+				7A0C47132C2C1323006F0AA3 /* Collisions.swift in Sources */,
 				7A1920292C2B9134005C7709 /* SpriteKit_ExercisesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

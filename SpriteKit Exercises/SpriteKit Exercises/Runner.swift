@@ -37,8 +37,6 @@ class Runner: SKScene {
         runner.run(SKAction.repeatForever(runAction))
         runner.run(SKAction.repeatForever(moveSequence))
         scene?.addChild(runner)
-        
-        //scene?.run(SKAction.playSoundFileNamed("passi", waitForCompletion: true))
     }
 }
 

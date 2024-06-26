@@ -42,3 +42,5 @@
 - [ ] Flower 5
 - [ ] Flower 6
 - [x] Runner
+- [x] Timer
+- [x] Collisions
