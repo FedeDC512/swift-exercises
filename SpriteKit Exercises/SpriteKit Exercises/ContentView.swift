@@ -16,10 +16,10 @@ struct ContentView: View {
         //let scene = SKScene(fileNamed: "SpawnFlowers")
         //let scene = SKScene(fileNamed: "DragFlowers")
         //let scene = SKScene(fileNamed: "ReverseSequence")
-        //let scene = SKScene(fileNamed: "SoundsAndAnimations")
+        let scene = SKScene(fileNamed: "SoundsAndAnimations")
         //let scene = SKScene(fileNamed: "Runner")
         //let scene = SKScene(fileNamed: "Timer")
-        let scene = SKScene(fileNamed: "Collisions")
+        //let scene = SKScene(fileNamed: "Collisions")
 
         scene!.size = CGSize(width: 750, height: 1334)
         scene?.scaleMode = .aspectFit
