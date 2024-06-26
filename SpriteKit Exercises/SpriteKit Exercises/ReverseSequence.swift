@@ -1,5 +1,5 @@
 //
-//  Flower5.swift
+//  ReverseSequence.swift
 //  SpriteKit Exercises
 //
 //  Created by Federico Agnello on 25/06/24.
@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-class Flower5: SKScene {
+class ReverseSequence: SKScene {
     
     
     override func didMove(to view: SKView) {
