@@ -6,7 +6,6 @@
 //
 // Challenge: Create a simple app that adds a new sprite to the scene every time the user presses a button
 // Challenge: Starting from the previous app, add a new sprite to the scene every time the user touch another sprite
-// Challenge: Put some flowers in the scene. When the user touch a flower show a different animation and a sound for each flower
 
 import SpriteKit
 

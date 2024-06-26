@@ -23,7 +23,12 @@ class Runner: SKScene {
         let s10 = SKTexture(imageNamed: "r10")
         let s11 = SKTexture(imageNamed: "r11")
         let s12 = SKTexture(imageNamed: "r12")
-        let runAction = SKAction.animate(with: [ s1, s2,s3, s4, s5, s6, s7, s8, s9, s10, s11, s12], timePerFrame: 0.1)
+        let passi = SKAction.playSoundFileNamed("passi", waitForCompletion: false)
+        let runAction1 = SKAction.animate(with: [ s1, s2 ], timePerFrame: 0.1)
+        let runAction2 = SKAction.animate(with: [ s3, s4, s5, s6, s7, s8 ], timePerFrame: 0.1)
+        let runAction3 = SKAction.animate(with: [ s9, s10, s11, s12], timePerFrame: 0.1)
+        
+        let runAction = SKAction.sequence([runAction1, passi, runAction2, passi, runAction3])
         let move = SKAction.moveBy(x: 1200, y: 0, duration: 4.5)
         let mirror = SKAction.scaleX(to: -1.0, duration: 0.1)
         let mirror2 = SKAction.scaleX(to: 1.0, duration: 0.1)
