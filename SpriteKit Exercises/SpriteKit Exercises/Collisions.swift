@@ -4,6 +4,12 @@
 //
 //  Created by Federico Agnello on 26/06/24.
 //
+// Challenge: Create the scene showed in the first picture.
+// Set category and collision masks according with this constrains:
+// The blue bar (M1) is a wall for the blue flower (FA).
+// The white bar (M2) is a wall for the blue and the orange (FB) flowers.
+// The purple flower (FC) runs through both walls.
+// Challenge Starting from the scene of the previous challenge, count collisions between walls and each flower.
 
 import SpriteKit
 

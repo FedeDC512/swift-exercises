@@ -40,7 +40,7 @@
 - [x] Spawn Flowers
 - [x] Drag Flowers
 - [ ] Reverse Sequence
-- [ ] Random Sound Animation
+- [ ] Sounds and Animations
 - [x] Runner
 - [x] Timer
 - [x] Collisions

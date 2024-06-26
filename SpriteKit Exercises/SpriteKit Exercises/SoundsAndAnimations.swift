@@ -1,5 +1,5 @@
 //
-//  RandomSoundAnimation.swift
+//  SoundsAndAnimations.swift
 //  SpriteKit Exercises
 //
 //  Created by Federico Agnello on 26/06/24.

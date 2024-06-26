@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A0C470B2C2C0041006F0AA3 /* RandomSoundAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C470A2C2C0041006F0AA3 /* RandomSoundAnimation.swift */; };
-		7A0C470D2C2C005B006F0AA3 /* RandomSoundAnimation.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C470C2C2C005B006F0AA3 /* RandomSoundAnimation.sks */; };
+		7A0C470B2C2C0041006F0AA3 /* SoundsAndAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C470A2C2C0041006F0AA3 /* SoundsAndAnimations.swift */; };
+		7A0C470D2C2C005B006F0AA3 /* SoundsAndAnimations.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C470C2C2C005B006F0AA3 /* SoundsAndAnimations.sks */; };
 		7A0C470F2C2C0703006F0AA3 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C470E2C2C0703006F0AA3 /* Timer.swift */; };
 		7A0C47112C2C0725006F0AA3 /* Timer.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C47102C2C0725006F0AA3 /* Timer.sks */; };
 		7A0C47132C2C1323006F0AA3 /* Collisions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C47122C2C1323006F0AA3 /* Collisions.swift */; };
@@ -36,8 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A0C470A2C2C0041006F0AA3 /* RandomSoundAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSoundAnimation.swift; sourceTree = "<group>"; };
-		7A0C470C2C2C005B006F0AA3 /* RandomSoundAnimation.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RandomSoundAnimation.sks; sourceTree = "<group>"; };
+		7A0C470A2C2C0041006F0AA3 /* SoundsAndAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsAndAnimations.swift; sourceTree = "<group>"; };
+		7A0C470C2C2C005B006F0AA3 /* SoundsAndAnimations.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SoundsAndAnimations.sks; sourceTree = "<group>"; };
 		7A0C470E2C2C0703006F0AA3 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		7A0C47102C2C0725006F0AA3 /* Timer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Timer.sks; sourceTree = "<group>"; };
 		7A0C47122C2C1323006F0AA3 /* Collisions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collisions.swift; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 				7A1920482C2B94DF005C7709 /* DragFlowers.sks */,
 				7A19204A2C2B95F9005C7709 /* ReverseSequence.swift */,
 				7A19204C2C2B9605005C7709 /* ReverseSequence.sks */,
-				7A0C470A2C2C0041006F0AA3 /* RandomSoundAnimation.swift */,
-				7A0C470C2C2C005B006F0AA3 /* RandomSoundAnimation.sks */,
+				7A0C470A2C2C0041006F0AA3 /* SoundsAndAnimations.swift */,
+				7A0C470C2C2C005B006F0AA3 /* SoundsAndAnimations.sks */,
 				7A19204E2C2B968A005C7709 /* Runner.swift */,
 				7A1920502C2B96A4005C7709 /* Runner.sks */,
 				7A0C470E2C2C0703006F0AA3 /* Timer.swift */,
@@ -203,7 +203,7 @@
 				7A19202D2C2B9135005C7709 /* Assets.xcassets in Resources */,
 				7A19204D2C2B9605005C7709 /* ReverseSequence.sks in Resources */,
 				7A1920492C2B94DF005C7709 /* DragFlowers.sks in Resources */,
-				7A0C470D2C2C005B006F0AA3 /* RandomSoundAnimation.sks in Resources */,
+				7A0C470D2C2C005B006F0AA3 /* SoundsAndAnimations.sks in Resources */,
 				7A0C47112C2C0725006F0AA3 /* Timer.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +218,7 @@
 				7A1920432C2B943A005C7709 /* SpawnFlowers.swift in Sources */,
 				7A1920472C2B94D3005C7709 /* DragFlowers.swift in Sources */,
 				7A19203B2C2B92EF005C7709 /* ArrangeFlowers1.swift in Sources */,
-				7A0C470B2C2C0041006F0AA3 /* RandomSoundAnimation.swift in Sources */,
+				7A0C470B2C2C0041006F0AA3 /* SoundsAndAnimations.swift in Sources */,
 				7A19204F2C2B968A005C7709 /* Runner.swift in Sources */,
 				7A1920372C2B917C005C7709 /* GameScene.swift in Sources */,
 				7A19204B2C2B95F9005C7709 /* ReverseSequence.swift in Sources */,

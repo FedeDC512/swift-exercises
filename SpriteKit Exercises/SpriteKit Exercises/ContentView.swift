@@ -16,7 +16,7 @@ struct ContentView: View {
         //let scene = SKScene(fileNamed: "SpawnFlowers")
         //let scene = SKScene(fileNamed: "DragFlowers")
         //let scene = SKScene(fileNamed: "ReverseSequence")
-        //let scene = SKScene(fileNamed: "RandomSoundAnimation")
+        //let scene = SKScene(fileNamed: "SoundsAndAnimations")
         //let scene = SKScene(fileNamed: "Runner")
         //let scene = SKScene(fileNamed: "Timer")
         let scene = SKScene(fileNamed: "Collisions")
