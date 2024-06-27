@@ -37,7 +37,7 @@
 ## Figma Exercises
 - [x] Instagram Replica
 
-## SpriteKit Exercises ![starly.png](https://github.com/FedeDC512/swift-exercises/blob/main/SpriteKit%20Exercises/SpriteKit%20Exercises/Assets.xcassets/pokemon/starly.imageset/starly.png)
+## SpriteKit Exercises
 - [x] Arrange Rectangles (GameScene)
 - [x] Arrange Flowers 1
 - [x] Arrange Flowers 2
