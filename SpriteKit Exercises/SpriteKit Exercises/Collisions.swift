@@ -18,6 +18,7 @@ class Collisions: SKScene, SKPhysicsContactDelegate {
     var collisionCounter = SKLabelNode()
     
     override func didMove(to view: SKView) {
+        physicsWorld.contactDelegate = self
         let xMid = 0
         let yMid = 0
         
@@ -65,7 +66,7 @@ class Collisions: SKScene, SKPhysicsContactDelegate {
         w1.physicsBody?.affectedByGravity = false
         w1.physicsBody?.categoryBitMask = 8
         w1.physicsBody?.collisionBitMask = 0
-        w1.physicsBody?.contactTestBitMask = 24
+        //w1.physicsBody?.contactTestBitMask = 24
         
         let w2 = SKSpriteNode(color: SKColor.white, size: CGSize(width: 750, height: 20))
         w2.position = CGPoint(x: 0, y: -600)
@@ -74,7 +75,7 @@ class Collisions: SKScene, SKPhysicsContactDelegate {
         w2.physicsBody?.affectedByGravity = false
         w2.physicsBody?.categoryBitMask = 16
         w2.physicsBody?.collisionBitMask = 0
-        w2.physicsBody?.contactTestBitMask = 24
+        //w2.physicsBody?.contactTestBitMask = 24
         
         let w3 = SKSpriteNode(color: SKColor.white, size: CGSize(width: 20, height: 800))
         w3.position = CGPoint(x: self.size.width/2, y: -200)
@@ -83,9 +84,8 @@ class Collisions: SKScene, SKPhysicsContactDelegate {
         w3.physicsBody?.affectedByGravity = false
         w3.physicsBody?.categoryBitMask = 16
         w3.physicsBody?.collisionBitMask = 0
-        w3.physicsBody?.contactTestBitMask = 24
+        //w3.physicsBody?.contactTestBitMask = 24
         
-        //physicsWorld.contactDelegate = self
         collisionCounter = SKLabelNode()
         collisionCounter.fontSize = 60
         collisionCounter.position = CGPoint(x: 150, y: +600)
@@ -95,6 +95,12 @@ class Collisions: SKScene, SKPhysicsContactDelegate {
     
     func didEnd(_ contact: SKPhysicsContact) {
         if (contact.bodyA.categoryBitMask == 1) || (contact.bodyB.categoryBitMask == 1) {
+            collisionsNumber += 1
+            collisionCounter.text = "Collisions: \(collisionsNumber)"
+        } else if (contact.bodyA.categoryBitMask == 2) || (contact.bodyB.categoryBitMask == 2) {
+            collisionsNumber += 1
+            collisionCounter.text = "Collisions: \(collisionsNumber)"
+        } else if (contact.bodyA.categoryBitMask == 4) || (contact.bodyB.categoryBitMask == 4) {
             collisionsNumber += 1
             collisionCounter.text = "Collisions: \(collisionsNumber)"
         }

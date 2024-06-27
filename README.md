@@ -43,4 +43,4 @@
 - [x] Sounds and Animations
 - [x] Runner
 - [x] Timer
-- [ ] Collisions
+- [x] Collisions
