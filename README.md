@@ -33,8 +33,11 @@
 - [x] Challenge 3
 - [ ] Pokedex
 
+## Figma Exercises
+- [x] Instagram Replica
+
 ## SpriteKit Exercises
-- [x] (GameScene)
+- [x] Arrange Rectangles (GameScene)
 - [x] Arrange Flowers 1
 - [x] Arrange Flowers 2
 - [x] Spawn Flowers
