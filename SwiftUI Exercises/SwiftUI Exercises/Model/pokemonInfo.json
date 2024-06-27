@@ -1,8 +1,9 @@
 [
     {
         "name": "Pikachu",
-        "type": "Electric",
+        "type": ["Electric"],
         "dex": "025",
+        "id": 25,
         "abilities": ["Static", "Lightning Rod"],
         "base_stats": {
             "hp": 35,
@@ -15,8 +16,9 @@
     },
     {
         "name": "Charmander",
-        "type": "Fire",
+        "type": ["Fire"],
         "dex": "004",
+        "id": 4,
         "abilities": ["Blaze", "Solar Power"],
         "base_stats": {
             "hp": 39,
@@ -31,6 +33,7 @@
         "name": "Bulbasaur",
         "type": ["Grass", "Poison"],
         "dex": "001",
+        "id": 1,
         "abilities": ["Overgrow", "Chlorophyll"],
         "base_stats": {
             "hp": 45,
@@ -43,8 +46,9 @@
     },
     {
         "name": "Squirtle",
-        "type": "Water",
+        "type": ["Water"],
         "dex": "007",
+        "id": 7,
         "abilities": ["Torrent", "Rain Dish"],
         "base_stats": {
             "hp": 44,
@@ -59,6 +63,7 @@
         "name": "Jigglypuff",
         "type": ["Normal", "Fairy"],
         "dex": "039",
+        "id": 39,
         "abilities": ["Cute Charm", "Competitive", "Friend Guard"],
         "base_stats": {
             "hp": 115,
