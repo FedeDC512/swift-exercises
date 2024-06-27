@@ -37,14 +37,14 @@
 ## Figma Exercises
 - [x] Instagram Replica
 
-## SpriteKit Exercises
+## SpriteKit Exercises ![starly.png](https://github.com/FedeDC512/swift-exercises/blob/main/SpriteKit%20Exercises/SpriteKit%20Exercises/Assets.xcassets/pokemon/starly.imageset/starly.png)
 - [x] Arrange Rectangles (GameScene)
 - [x] Arrange Flowers 1
 - [x] Arrange Flowers 2
 - [x] Spawn Flowers
 - [x] Drag Flowers
 - [x] Reverse Sequence
-- [x] Sounds and Animations ![starly.png](https://github.com/FedeDC512/swift-exercises/blob/main/SpriteKit%20Exercises/SpriteKit%20Exercises/Assets.xcassets/pokemon/starly.imageset/starly.png)
+- [x] Sounds and Animations
 - [x] Runner
 - [x] Timer
 - [x] Collisions
