@@ -4,6 +4,7 @@
 
 - [Swift Playground](#swift-playground-exercises)
 - [SwiftUI](#swiftui-exercises)
+- [Figma](#figma-exercises)
 - [SpriteKit](#spritekit-exercises)
 
 ## Swift Playground Exercises
@@ -43,7 +44,7 @@
 - [x] Spawn Flowers
 - [x] Drag Flowers
 - [x] Reverse Sequence
-- [x] Sounds and Animations
+- [x] Sounds and Animations ![starly.png](https://github.com/FedeDC512/swift-exercises/blob/main/SpriteKit%20Exercises/SpriteKit%20Exercises/Assets.xcassets/pokemon/starly.imageset/starly.png)
 - [x] Runner
 - [x] Timer
 - [x] Collisions
