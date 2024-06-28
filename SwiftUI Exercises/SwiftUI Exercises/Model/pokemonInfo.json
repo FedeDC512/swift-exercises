@@ -12,7 +12,9 @@
             "special_attack": 50,
             "special_defense": 50,
             "speed": 90
-        }
+        },
+        "favorite": true,
+        "caught_entities": 0
     },
     {
         "name": "Charmander",
@@ -27,7 +29,9 @@
             "special_attack": 60,
             "special_defense": 50,
             "speed": 65
-        }
+        },
+        "favorite": false,
+        "caught_entities": 0
     },
     {
         "name": "Bulbasaur",
@@ -42,7 +46,9 @@
             "special_attack": 65,
             "special_defense": 65,
             "speed": 45
-        }
+        },
+        "favorite": false,
+        "caught_entities": 0
     },
     {
         "name": "Squirtle",
@@ -57,7 +63,9 @@
             "special_attack": 50,
             "special_defense": 64,
             "speed": 43
-        }
+        },
+        "favorite": false,
+        "caught_entities": 0
     },
     {
         "name": "Jigglypuff",
@@ -72,6 +80,8 @@
             "special_attack": 45,
             "special_defense": 25,
             "speed": 20
-        }
+        },
+        "favorite": false,
+        "caught_entities": 0
     }
 ]

@@ -8,18 +8,19 @@
 import Foundation
 import SwiftUI
 
-struct Pokemon: Hashable, Codable {
+struct Pokemon: Hashable, Codable, Identifiable {
+    var id:Int
     var name:String
     var type:[String]
     var dex:String
-    var id:Int
     var abilities:[String]
     var base_stats:BaseStats
+    var favorite:Bool
+    var caught_entities:Int
     
-    /*private var preview:String
-        var image: Image {
-            Image(preview)
-        }*/
+    var image: Image {
+        Image(dex)
+    }
 }
 
 struct BaseStats: Hashable, Codable {

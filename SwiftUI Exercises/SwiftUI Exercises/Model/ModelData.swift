@@ -7,7 +7,10 @@
 
 import Foundation
 
-var pokemons: [Pokemon] = load("pokemonInfo.json")
+@Observable
+class ModelData{
+    var pokemons: [Pokemon] = load("pokemonInfo.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data:Data

@@ -13,15 +13,23 @@ struct PokemonRow: View {
     
     var body: some View {
         HStack{
+            pokemon.image
+                .resizable()
+                .scaledToFit()
+                .frame(height: 60)
             Text(pokemon.name)
+            Spacer()
+            if pokemon.favorite {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.yellow)
+            }
         }
     }
 }
 
 #Preview {
-    PokemonRow(pokemon: pokemons[0])
-}
-
-#Preview {
-    PokemonRow(pokemon: pokemons[1])
+    Group {
+        PokemonRow(pokemon: ModelData().pokemons[0])
+        PokemonRow(pokemon: ModelData().pokemons[1])
+    }
 }
