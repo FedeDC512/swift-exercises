@@ -32,7 +32,9 @@
 - [x] Challenge 1
 - [x] Challenge 2
 - [x] Challenge 3
-- [ ] Pokedex
+- [x] [Creating and combining views](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views) ([SwiftPokedex](https://github.com/FedeDC512/SwiftPokedex))
+- [x] [Building lists and navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) ([SwiftPokedex](https://github.com/FedeDC512/SwiftPokedex))
+- [x] [Handling user input](https://developer.apple.com/tutorials/swiftui/handling-user-input) ([SwiftPokedex](https://github.com/FedeDC512/SwiftPokedex))
 
 ## Figma Exercises
 - [x] Instagram Replica
