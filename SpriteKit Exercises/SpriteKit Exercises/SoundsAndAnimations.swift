@@ -17,24 +17,28 @@ class SoundsAndAnimations: SKScene {
         starly.position = CGPoint(x: 0, y: +250)
         starly.setScale(3)
         starly.name = "starly"
+        starly.texture?.filteringMode = .nearest
         scene?.addChild(starly)
         
         let bidoof = SKSpriteNode(imageNamed: "bidoof")
         bidoof.position = CGPoint(x: 0, y: +90)
         bidoof.setScale(3)
         bidoof.name = "bidoof"
+        bidoof.texture?.filteringMode = .nearest
         scene?.addChild(bidoof)
         
         let kricketot = SKSpriteNode(imageNamed: "kricketot")
         kricketot.position = CGPoint(x: 0, y: -90)
         kricketot.setScale(3)
         kricketot.name = "kricketot"
+        kricketot.texture?.filteringMode = .nearest
         scene?.addChild(kricketot)
         
         let shinx = SKSpriteNode(imageNamed: "shinx")
         shinx.position = CGPoint(x: 0, y: -250)
         shinx.setScale(3)
         shinx.name = "shinx"
+        shinx.texture?.filteringMode = .nearest
         scene?.addChild(shinx)
     }
     
