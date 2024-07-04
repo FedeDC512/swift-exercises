@@ -1,5 +1,5 @@
 //
-//  Challenge3.swift
+//  InteractiveButtons.swift
 //  SwiftUI Exercises
 //
 //  Created by Federico Agnello on 24/06/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Challenge3: View {
+struct InteractiveButtons: View {
     @State var count = 0
     var body: some View {
         VStack {
@@ -29,6 +29,6 @@ struct Challenge3: View {
 }
 
 #Preview {
-    Challenge3()
+    InteractiveButtons()
 }
 

@@ -1,5 +1,5 @@
 //
-//  Challenge1.swift
+//  ArrangeElements1.swift
 //  SwiftUI Exercises
 //
 //  Created by Federico Agnello on 24/06/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Challenge1: View {
+struct ArrangeElements1: View {
     var body: some View {
         VStack {
             Color.blue
@@ -30,5 +30,5 @@ struct Challenge1: View {
 }
 
 #Preview {
-    Challenge1()
+    ArrangeElements1()
 }

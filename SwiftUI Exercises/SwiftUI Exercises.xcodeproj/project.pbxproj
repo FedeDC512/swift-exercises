@@ -11,9 +11,9 @@
 		7A1920072C2B8FC5005C7709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920062C2B8FC5005C7709 /* ContentView.swift */; };
 		7A1920092C2B8FC6005C7709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1920082C2B8FC6005C7709 /* Assets.xcassets */; };
 		7A19200C2C2B8FC6005C7709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A19200B2C2B8FC6005C7709 /* Preview Assets.xcassets */; };
-		7A1920132C2B9023005C7709 /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920122C2B9023005C7709 /* Challenge1.swift */; };
-		7A1920152C2B903F005C7709 /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920142C2B903F005C7709 /* Challenge2.swift */; };
-		7A1920172C2B9064005C7709 /* Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920162C2B9064005C7709 /* Challenge3.swift */; };
+		7A1920132C2B9023005C7709 /* ArrangeElements1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920122C2B9023005C7709 /* ArrangeElements1.swift */; };
+		7A1920152C2B903F005C7709 /* ArrangeElements2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920142C2B903F005C7709 /* ArrangeElements2.swift */; };
+		7A1920172C2B9064005C7709 /* InteractiveButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1920162C2B9064005C7709 /* InteractiveButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +22,9 @@
 		7A1920062C2B8FC5005C7709 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A1920082C2B8FC6005C7709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A19200B2C2B8FC6005C7709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7A1920122C2B9023005C7709 /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
-		7A1920142C2B903F005C7709 /* Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2.swift; sourceTree = "<group>"; };
-		7A1920162C2B9064005C7709 /* Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3.swift; sourceTree = "<group>"; };
+		7A1920122C2B9023005C7709 /* ArrangeElements1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrangeElements1.swift; sourceTree = "<group>"; };
+		7A1920142C2B903F005C7709 /* ArrangeElements2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrangeElements2.swift; sourceTree = "<group>"; };
+		7A1920162C2B9064005C7709 /* InteractiveButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +59,9 @@
 			children = (
 				7A1920042C2B8FC5005C7709 /* SwiftUI_ExercisesApp.swift */,
 				7A1920062C2B8FC5005C7709 /* ContentView.swift */,
-				7A1920122C2B9023005C7709 /* Challenge1.swift */,
-				7A1920142C2B903F005C7709 /* Challenge2.swift */,
-				7A1920162C2B9064005C7709 /* Challenge3.swift */,
+				7A1920122C2B9023005C7709 /* ArrangeElements1.swift */,
+				7A1920142C2B903F005C7709 /* ArrangeElements2.swift */,
+				7A1920162C2B9064005C7709 /* InteractiveButtons.swift */,
 				7A1920082C2B8FC6005C7709 /* Assets.xcassets */,
 				7A19200A2C2B8FC6005C7709 /* Preview Content */,
 			);
@@ -146,10 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1920152C2B903F005C7709 /* Challenge2.swift in Sources */,
-				7A1920132C2B9023005C7709 /* Challenge1.swift in Sources */,
+				7A1920152C2B903F005C7709 /* ArrangeElements2.swift in Sources */,
+				7A1920132C2B9023005C7709 /* ArrangeElements1.swift in Sources */,
 				7A1920072C2B8FC5005C7709 /* ContentView.swift in Sources */,
-				7A1920172C2B9064005C7709 /* Challenge3.swift in Sources */,
+				7A1920172C2B9064005C7709 /* InteractiveButtons.swift in Sources */,
 				7A1920052C2B8FC5005C7709 /* SwiftUI_ExercisesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

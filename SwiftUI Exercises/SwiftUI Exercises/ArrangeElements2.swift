@@ -1,5 +1,5 @@
 //
-//  Challenge2.swift
+//  ArrangeElements2.swift
 //  SwiftUI Exercises
 //
 //  Created by Federico Agnello on 24/06/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Challenge2: View {
+struct ArrangeElements2: View {
     var body: some View {
         ZStack {
             Color.yellow
@@ -39,5 +39,5 @@ struct Challenge2: View {
 }
 
 #Preview {
-    Challenge2()
+    ArrangeElements2()
 }
