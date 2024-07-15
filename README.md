@@ -23,8 +23,8 @@
 - [x] Enumerations
 - [x] Closures (Challenges)
 
-### To Do:
-- [ ] Guard
+### Extra:
+- [x] Guard
 - [ ] Scope
 - [ ] Type Casting
 
