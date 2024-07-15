@@ -25,7 +25,7 @@
 
 ### Extra:
 - [x] Guard
-- [ ] Scope
+- [x] Scope
 - [x] Type Casting
 
 ## SwiftUI Exercises
