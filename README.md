@@ -1,5 +1,7 @@
 # Swift Exercises: Apple Foundation Program
 
+Collection of exercises completed during the first edition of the "Apple Foundation Program 2024" at University of Palermo. These exercises cover **Swift Playground**, **SwiftUI**, **Figma**, and **SpriteKit**, all conducted using a Challenge-Based Learning approach.
+
 ## Table of Contents
 
 - [Swift Playground](#swift-playground-exercises)
